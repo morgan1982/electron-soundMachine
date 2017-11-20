@@ -1,0 +1,55 @@
+html,
+body {
+    -webkit-app-region: drag;
+
+    /* background-color: black; */
+    background-color: wheat;
+    color: orange;
+    font-family: Ubuntu;
+
+
+}
+/* .modal {
+    -webkit-app-region: drag; */
+/* } */
+.btn-container {
+    display: flex;
+}
+.btn {
+    
+    -webkit-app-region: no-drag;
+    /* background: transparent; */
+    display: inline-block;
+    position: relative;
+    /* display: block; */
+    width: 100px;
+    height: 50px;
+    border: 1xp solid white;
+    border-radius: 3px;
+    /* border-bottom: 3px solid aqua; */
+    text-align: center;
+    font-size: 19px;
+    font-weight: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+span {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+span:hover {
+    -webkit-filter: drop-shadow(5px 3px 3px #222);
+    /* filter: drop-shadow(5px 5px 5px #222); */
+}
+span:active {
+    -webkit-filter: drop-shadow(1px 1px 1px #222);
+    
+}
